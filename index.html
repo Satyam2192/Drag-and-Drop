@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Drag and Drop</h1>
+
+    <div class="container">
+      <div class="box" id="drag-container">
+        <h2>Drag Items</h2>
+        <img
+          class="draggable"
+          src="https://source.unsplash.com/150x150/?Volcano"
+          alt="Volcano Image"
+        />
+        <img
+          class="draggable"
+          src="https://source.unsplash.com/150x150/?climate"
+          alt="Climate Image"
+        />
+        <img
+          class="draggable"
+          src="https://source.unsplash.com/150x150/?toys"
+          alt="Toys Image"
+        />
+        <img
+          class="draggable"
+          src="https://source.unsplash.com/150x150/?cars"
+          alt="Cars Image"
+        />
+        <img
+          class="draggable"
+          src="https://source.unsplash.com/150x150/?shoes"
+          alt="Shoes Image"
+        />
+        <img
+          class="draggable"
+          src="https://source.unsplash.com/150x150/?universe"
+          alt="Robots Image"
+        />
+        <img
+          class="draggable"
+          src="https://source.unsplash.com/150x150/?space-ship"
+          alt="Hacker Image"
+        />
+        <div class="draggable" draggable="true"><p>Draggable Text 1</p></div>
+        <div class="draggable" draggable="true"><p>Draggable Text 2</p></div>
+        <div class="draggable" draggable="true"><p>Draggable Text 3</p></div>
+        <div class="draggable" draggable="true"><p>Draggable Text 4</p></div>
+        <div class="draggable" draggable="true"><p>Draggable Text 5</p></div>
+
+        <img
+          class="draggable icon"
+          src="https://img.icons8.com/?size=512&id=uW7uTRgQswG0&format=png"
+          alt="Icon 1"
+        />
+        <img
+          class="draggable icon"
+          src="https://img.icons8.com/?size=512&id=7P9DnhYbb3Xp&format=png"
+          alt="Icon 2"
+        />
+        <img
+          class="draggable icon"
+          src="https://img.icons8.com/?size=512&id=fsoiqMUp0O4v&format=png"
+          alt="Icon 3"
+        />
+        <img
+          class="draggable icon"
+          src="https://img.icons8.com/?size=512&id=tfNND6fR3djX&format=png"
+          alt="Icon 4"
+        />
+        <img
+          class="draggable icon"
+          src="https://img.icons8.com/?size=512&id=7tuPVSyL8yYC&format=png"
+          alt="Icon 5"
+        />
+      </div>
+
+      <div class="box droppable" id="drop-container">
+        <h2>Drop Here</h2>
+      </div>
+    </div>
+    
+
+    <button class="reset-button" id="reset-button">Reset</button>
+    <div class="success-message"><p>Items dropped successfully!</p></div>
+    <div class="reset-message" id="reset-message">
+      <h2>Reset Confirmation</h2>
+      <p>Are you sure you want to reset the drag and drop items?</p>
+      <button class="reset-button" id="confirm-reset-button">
+        Confirm Reset
+      </button>
+      <button class="reset-button" id="cancel-reset-button">Cancel</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
